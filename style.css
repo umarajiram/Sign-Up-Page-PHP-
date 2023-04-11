@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;                                /* it will make centre*/
+}
+
+.container h1,p{
+    text-align: center; 
+}
+
+p{
+font-size: 16px;
+}
+
+input, textarea , select{
+    width: 80%;
+    margin: 11px 0px;                    /*11px is top bottom and 0px is left right*/
+    padding: 7px;
+    font-size: 15px;
+    border: 2PX solid black;
+    border-radius: 6px;
+    outline: none;
+    
+    
+
+}
+
+form{
+    display: flex;                          /* submit and reset button will come to centre and it will not be in row */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;                  /* because flex direction will be in row */
+    
+}
+
+.btn{
+    color: white;
+    background: green;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;         /* The pic will cover full page*/
+    z-index: -1;                /* The pic will be in background but background color will be there it should be removed */
+}
+
+.submitmsg{
+    font-size: 18px;
+    color: green;
+}
